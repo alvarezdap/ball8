@@ -1,7 +1,7 @@
 import random
 
-name = "Andres"
-question = "Debo comer pizza hoy"
+name = input("Ingresa tu nombre: ")
+question = input("Ingresa una pregunta: ")
 answer = ""
 random_number = random.randint(1,9)
 
@@ -26,4 +26,4 @@ elif random_number ==9:
 else:
   print("Try a number between 1-9")
 
- print("ok, " + name + " your question was: " + question + "and my answer is: " + answer )
+print("ok, " + name + " your question was: " + question + " and my answer is: " + answer )
